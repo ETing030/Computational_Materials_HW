@@ -1,6 +1,6 @@
 # Computational_Materials_HW
 計算材料作業:D  
-此檔案包含作業題目說明
+此檔案包含作業題目
 - 題目為原封不動地從 moodle 搬過來 :)
 - 建議用 light mode 閱讀  
 - math to image: https://latex.codecogs.com/
