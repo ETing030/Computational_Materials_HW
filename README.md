@@ -1,11 +1,11 @@
 # Computational_Materials_HW
 計算材料作業:D  
-以下為各個作業之題目說明
-
+此檔案包含作業說明與心得
 - 題目為原封不動地從 moodle 搬過來 :)
 - 建議用 light mode 閱讀  
 - math to image: https://latex.codecogs.com/
 
+# 作業說明
 ## HW1
 題目：請寫一個程式可以輸出一個 mass-spring system 的解
 1. 請找出  <div align=center><img src="https://latex.codecogs.com/svg.image?my''&plus;cy'&plus;ky=0" title="https://latex.codecogs.com/svg.image?my''+cy'+ky=0" /></div>微分方程之解析解（寫出解的函數），給定<div align=center><img src="https://latex.codecogs.com/svg.image?y(0)=k_0,y'(0)=k_1" title="https://latex.codecogs.com/svg.image?y(0)=k_0,y'(0)=k_1" /></div> 根據<div align=center><img src="https://latex.codecogs.com/svg.image?\sqrt{c^2-4mk}" title="https://latex.codecogs.com/svg.image?\sqrt{c^2-4mk}" /></div>共有三種情形
@@ -27,3 +27,7 @@
 2. 將第一題的程式延伸到三維的非晶材料建模，並做相同的預測與驗證
 3. 有甚麼方法可以有效的提升填充的成功率？請解釋你的想法，並將他以程式實現，且做驗證（比較第一題或第二題程式的迴圈數預測值，以及沒有違背填入準則）
 4. 請改寫 test21.f90，將熱中子的路徑繪出（隨機選出十個熱中子的路徑繪出即可）
+
+
+# 心得
+- 待補 :))
