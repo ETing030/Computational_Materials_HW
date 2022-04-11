@@ -1,11 +1,10 @@
 # Computational_Materials_HW
 計算材料作業:D  
-此檔案包含作業說明與心得
+此檔案包含作業題目說明
 - 題目為原封不動地從 moodle 搬過來 :)
 - 建議用 light mode 閱讀  
 - math to image: https://latex.codecogs.com/
 
-# 作業說明
 ## HW1
 題目：請寫一個程式可以輸出一個 mass-spring system 的解
 1. 請找出  <div align=center><img src="https://latex.codecogs.com/svg.image?my''&plus;cy'&plus;ky=0" title="https://latex.codecogs.com/svg.image?my''+cy'+ky=0" /></div>微分方程之解析解（寫出解的函數），給定<div align=center><img src="https://latex.codecogs.com/svg.image?y(0)=k_0,y'(0)=k_1" title="https://latex.codecogs.com/svg.image?y(0)=k_0,y'(0)=k_1" /></div> 根據<div align=center><img src="https://latex.codecogs.com/svg.image?\sqrt{c^2-4mk}" title="https://latex.codecogs.com/svg.image?\sqrt{c^2-4mk}" /></div>共有三種情形
@@ -29,5 +28,3 @@
 4. 請改寫 test21.f90，將熱中子的路徑繪出（隨機選出十個熱中子的路徑繪出即可）
 
 
-# 心得
-- 待補 :))
