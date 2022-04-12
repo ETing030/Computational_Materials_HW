@@ -1,2 +1,8 @@
 # HW1
-- 待說明
+題目：請寫一個程式可以輸出一個 mass-spring system 的解
+1. 請找出  <div align=center><img src="https://latex.codecogs.com/svg.image?my''&plus;cy'&plus;ky=0" title="https://latex.codecogs.com/svg.image?my''+cy'+ky=0" /></div>微分方程之解析解（寫出解的函數），給定<div align=center><img src="https://latex.codecogs.com/svg.image?y(0)=k_0,y'(0)=k_1" title="https://latex.codecogs.com/svg.image?y(0)=k_0,y'(0)=k_1" /></div> 根據<div align=center><img src="https://latex.codecogs.com/svg.image?\sqrt{c^2-4mk}" title="https://latex.codecogs.com/svg.image?\sqrt{c^2-4mk}" /></div>共有三種情形
+2. 請將 1 所推導的結果，利用 FORTRAN 程式，給予m, c, k, k0, k1之值（自己設定），做判斷，然後輸出至少 10 點的 y(t) 值
+3. 請將 2 所得的結果繪圖，並驗證三種情形下結果是正確（可用 excel 直接輸出解的函數值做驗證，三種情形皆需驗證）
+
+更詳細的說明可見 `Damping.docx`
+1. 代入<div align=center><img src="https://latex.codecogs.com/svg.image?y=e^{\lambda&space;x}" title="https://latex.codecogs.com/svg.image?y=e^{\lambda x}" /></div> 和其初始條件，分別計算判斷式<div align=center><img src="https://latex.codecogs.com/svg.image?D=\sqrt{c^2-4mk}" title="https://latex.codecogs.com/svg.image?D=\sqrt{c^2-4mk}" /></div>在不同初始條件下所得到<div align=center><img src="https://latex.codecogs.com/svg.image?\left\{\begin{matrix}\text{Case&space;I:}&y=C_1y_1&plus;C_2y_2&space;&&space;\text{if}&D>0\\\text{Case&space;II:}&y=C_1y_1&plus;tC_2y_2&&space;\text{if}&D=0\\\text{Case&space;III:}&y=e^{\frac{-c}{2m}t}\left&space;(&space;C_1\cos(\frac{\sqrt{-D}}{2m})&plus;C_2\sin(\frac{\sqrt{-D}}{2m})&space;\right&space;)&&space;\text{if}&D<0\end{matrix}\right." title="https://latex.codecogs.com/svg.image?\left\{\begin{matrix}\text{Case I:}&y=C_1y_1+C_2y_2 & \text{if}&D>0\\\text{Case II:}&y=C_1y_1+tC_2y_2& \text{if}&D=0\\\text{Case III:}&y=e^{\frac{-c}{2m}t}\left ( C_1\cos(\frac{\sqrt{-D}}{2m})+C_2\sin(\frac{\sqrt{-D}}{2m}) \right )& \text{if}&D<0\end{matrix}\right." /></div>
