@@ -1,5 +1,4 @@
-# HW1
-請寫一個程式可以輸出一個 mass-spring system 的解
+# HW1: 請寫一個程式可以輸出一個 mass-spring system 的解
 
 **更詳細的說明可見 `Damping.docx`**  
 Code: `damping.f90`
