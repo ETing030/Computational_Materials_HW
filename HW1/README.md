@@ -1,9 +1,14 @@
 # HW1
-題目：請寫一個程式可以輸出一個 mass-spring system 的解
+請寫一個程式可以輸出一個 mass-spring system 的解
 
 **更詳細的說明可見 `Damping.docx`**  
 Code: `damping.f90`
+以 fortran 資料作圖: `fortran_damping_data.xlsx`  
+以 excel 資料作圖: `excel_damping_data.xlsx`  
+excel 和 fortran 資料誤差作圖: `excel.vs.fortran.xlsx`  
 
+---
+**參見`Damping.docx`, `damping.f90`**
 <div align=center><img src="https://latex.codecogs.com/svg.image?my''&plus;cy'&plus;ky=0" title="https://latex.codecogs.com/svg.image?my''+cy'+ky=0" /></div>
 
 - 代入<div align=center><img src="https://latex.codecogs.com/svg.image?y=e^{\lambda&space;x}" title="https://latex.codecogs.com/svg.image?y=e^{\lambda x}" /></div> 和質量（m）、彈性係數（k）和阻尼係數（c），計算判斷式<div align=center><img src="https://latex.codecogs.com/svg.image?D=\sqrt{c^2-4mk}" title="https://latex.codecogs.com/svg.image?D=\sqrt{c^2-4mk}" /></div>
@@ -26,6 +31,7 @@ Case III | Underdamping
 </div>
 
 ---
+**參見`Damping.docx`, `fortran_damping_data.xlsx`, `excel_damping_data.xlsx`, `excel.vs.fortran.xlsx`**
 - 以<div align=center><img src="https://latex.codecogs.com/svg.image?10y''&plus;cy'&plus;90=0&space;,\quad&space;y(0)=0.16,&space;y'(0)=0" title="https://latex.codecogs.com/svg.image?10y''+cy'+90=0 ,\quad y(0)=0.16, y'(0)=0" /></div>為例，分別代入 
 
 <div align=center>
