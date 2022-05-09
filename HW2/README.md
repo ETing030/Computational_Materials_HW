@@ -1,6 +1,6 @@
 # HW2: 建立 FCC 晶體模型（待補說明）
-## repo 說明估計很久以後才會補，`fcc crystal model modified.docx` 為作業較詳細的說明
-## 程式檔為 `fcc_crystal_model_modified.f90`、`fcc_crystal_model_modified_2.f90` 和 `fcc_crystal_model_modified_4.f90`
+**repo 說明估計很久以後才會補，`fcc crystal model modified.docx` 為作業較詳細的說明**  
+**程式檔為 `fcc_crystal_model_modified.f90`、`fcc_crystal_model_modified_2.f90` 和 `fcc_crystal_model_modified_4.f90`**
 
 ---
 1. 請寫出 FCC 一個單位晶包內做平移對稱轉換後位置不重複的原子位置點座標及你設定的晶格常數
