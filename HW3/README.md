@@ -61,7 +61,9 @@
 <div align=center>
   <img src='https://user-images.githubusercontent.com/39528069/162939971-13f8c213-a7fc-4a80-804e-531feaf0e3dd.png' width='400'>
 </div>
+
 - 將上例以 GeoGebra 呈現，各原子圓心間均大於其直徑
+
 <div align=center>
   <img src='https://user-images.githubusercontent.com/39528069/162940089-8944eeb8-4ea4-4393-ab5a-32aec0a2d08e.png' width='300'>
 </div>
